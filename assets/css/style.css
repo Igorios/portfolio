@@ -1,0 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: #969696;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #445964;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #33424b;
+}
+
+#particles-js {
+    background: #031828;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+.container-one {
+    height: 100vh;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 5.8rem;
+    font-size: max(30px, 6vw);
+    text-shadow: 0px 0px 15px #445964;
+}
+
+.span-color {
+    color: #445964;
+}
+
+.btn-inicio {
+    width: 195px;
+    border-radius: 20px !important;
+    box-shadow: 0px 0px 15px #445964;
+    background-color: #445964 !important;
+    color: #fff !important;
+}
+
+.card-portifolio {
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    background-color: #445964;
+}
+
+.text-potifolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.body-portifolio {
+    margin: 30px 9rem;
+}
+
+.box-img {
+    margin: 20px 0;
+}
+
+.br {
+    display: none;
+}
+
+@media (max-width: 580px) {
+    .body-portifolio {
+        margin: 30px 2rem;
+    }
+
+    .btn-filter {
+        margin-bottom: 15px;
+    }
+
+    .br {
+        display: flex;
+    }
+    
+    
+} 
