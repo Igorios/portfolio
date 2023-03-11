@@ -9,61 +9,104 @@
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"></script>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <title>Portifólio</title>
 </head>
 <body>
+    <div id="particles-js"></div>
+    <div id="cursor"></div>
     
     <div id="container">
-        <div id="particles-js"></div>
-        <div class="container-one justify-content-center d-flex align-items-center" >
-            <div class="text-white text-center">
-                <h1 class="title"><span class="span-color">&lt;</span>Igor Borges<span class="span-color">/&gt</h1>
-                <h5 class="mt-2">Seja bem vindo ao meu portifólio website</h5>
-                <a href="#sobre" class="btn btn-inicio mt-3">Conheça</a>
-            </div>
-        </div>
-        <div style="height: 90vh;" class="container" id="sobre">
-            <div class="justify-content-center d-flex align-items-center mt-5">
-                <div id="header-sobre" class="col-12">
-                    <h2  class="text-white text-center fs-2 fw-bolder">Meu Portifólio</h2>
-                    <div class="text-white text-center">Estes são alguns dos trabalhos e  projetos que já realizei</div>
-                    <div id="content-sobre" class="mt-3">        
-                        <div id="header-btn" class="text-center">
-                            <button id="btn-todo" class="btn btn-secondary btn-filter btn-port mx-1 active">Todos</button>
-                            <button id="btn-web" class="btn btn-secondary btn-filter mx-1">Web Site</button> <br class="br">
-                            <button id="btn-jogo" class="btn btn-secondary btn-filter btn-port mx-1">Jogos</button> 
-                            <button id="btn-pessoal" class="btn btn-secondary btn-filter btn-port mx-1">Pessoal</button>
-                        </div>
-                        <div class="body-portifolio">
-                            <div class="row">
-                                <a href="#" class="col-md-4 box-img web">
-                                    <img src="assets/img/web-1.png" class="img-fluid" alt="img">
-                                </a>
-                                <a href="#" class="col-md-4 box-img pessoal">
-                                    <img src="assets/img/pessoal-1.png" class="img-fluid" alt="img">
-                                </a>
-                                <a href="#" class="col-md-4 box-img web">
-                                    <img src="assets/img/web-2.png" class="img-fluid" alt="img">
-                                </a>
-                                <a href="#" class="col-md-4 box-img jogo">
-                                    <img src="assets/img/jogo-1.png" class="img-fluid" alt="img">
-                                </a>
-                                <a href="#" class="col-md-4 box-img pessoal">
-                                    <img src="assets/img/pessoal.png" class="img-fluid" alt="img">
-                                </a>
-                                <a href="#" class="col-md-4 box-img jogo">
-                                    <img src="assets/img/jogo-2.png" class="img-fluid" alt="img">
-                                </a>
-                            </div>
-                        </div>
-                        <!-- <p class="text-start text-white">20/09/2022</p>
-                        <div id="body-sobre"></div>
-                        <div class="card-portifolio d-flex mt-3"><p class="text-potifolio"></p></div> -->
-                    </div>
+        
+        <section class="container-one justify-content-center d-flex align-items-center" >
+            <div class="row">
+                <div class="text-white text-center">
+                    <h1 class="title"><span class="span-color">&lt;</span>Igor Borges<span class="span-color">/&gt</h1>
+                    <p class="mt-2 subtitle">Seja bem vindo ao meu portifólio website</p>
+                    <a href="#sobre" class="btn btn-inicio mt-3">Conheça</a>
                 </div>
             </div>
-        </div>
+        </section>
+
+
+        <section class="container-fluid " id="sobre">
+            <div class="row">
+                <div class="container mt-5">
+                    <div id="header-sobre" class="col-12">
+                        <h2  class="text-white text-center fs-2 fw-bolder text-shadow">Meu Portifólio</h2>
+                        <div class="text-white text-center text-shadow">Estes são alguns dos trabalhos e  projetos que já realizei</div>
+                        <div id="content-sobre" class="mt-3">        
+                            <div id="header-btn" class="text-center">
+                                <button id="btn-todo" class="btn btn-secondary btn-filter btn-port mx-1 active">Todos</button>
+                                <button id="btn-web" class="btn btn-secondary btn-filter mx-1">Web Site</button> <br class="br">
+                                <button id="btn-jogo" class="btn btn-secondary btn-filter btn-port mx-1">Jogos</button> 
+                                <button id="btn-pessoal" class="btn btn-secondary btn-filter btn-port mx-1">Pessoal</button>
+                            </div>
+                            <div class="body-portifolio">
+                                <div class="row">
+                                    <a href="https://www.gumpmotors.com/" target="_blank" class="col-md-4 box-img web">
+                                        <img src="assets/img/web-1.png" class="img-fluid" alt="img">
+                                    </a>
+                                    <a href="https://igorios.github.io/lista-tarefas/" target="_blank" class="col-md-4 box-img pessoal">
+                                        <img src="assets/img/pessoal-1.png" class="img-fluid" alt="img">
+                                    </a>
+                                    <a href="https://denuncias.crn5.org.br/" target="_blank" class="col-md-4 box-img web">
+                                        <img src="assets/img/web-2.png" class="img-fluid" alt="img">
+                                    </a>
+                                    <a href="https://igorios.github.io/jogo-da-memoria/" target="_blank" class="col-md-4 box-img jogo">
+                                        <img src="assets/img/jogo-1.png" class="img-fluid" alt="img">
+                                    </a>
+                                    <a href="https://igorios.github.io/gestao-projetos/" target="_blank" class="col-md-4 box-img pessoal">
+                                        <img src="assets/img/pessoal.png" class="img-fluid" alt="img">
+                                    </a>
+                                    <a href="https://igorios.github.io/criptografia/" target="_blank" class="col-md-4 box-img jogo">
+                                        <img src="assets/img/jogo-2.png" class="img-fluid" alt="img">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="container" id="container-tech">
+            <div class="row">
+                <div class="col-12"><p class="text-center text-white fs-1 fw-bolder text-shadow">Minhas Techs</p></div>
+                <h6 class="mt-5 text-center m-0 text-white">Tecnologias</h6>
+                <h3 class="text-center text-white mb-4">Já Utilizadas</h3>
+                <div class="col-12" id="content-tech">
+                    <p>
+                        <i class="devicon-php-plain"></i>
+                    </p>
+                    <p>     
+                        <i class="devicon-laravel-plain"></i>
+                    </p>
+                    <p>
+                        <i class="devicon-wordpress-plain"></i>
+                    </p>
+                    <p>
+                        <i class="devicon-javascript-plain"></i>
+                    </p>
+                    <p>
+                        <i class="devicon-git-plain"></i>
+                    </p>
+                    
+                </div>
+                <h6 class="mt-5 text-center m-0 text-white">Tecnologias</h6>
+                <h3 class="text-center text-white mb-4">Atualmente Desenvolvendo</h3>
+                <div class="col-12" id="content-tech">
+                    <p>
+                        <i class="devicon-nodejs-plain"></i>
+                    </p>
+                    <p>     
+                        <i class="devicon-react-original"></i>
+                    </p>
+                </div>
+            </div>
+            </div>
+        </section>
+       
     </div>
 
     <script src="assets/js/particles.min.js"></script>

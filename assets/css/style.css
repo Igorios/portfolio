@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+/* body {
+    cursor: url(../img/imagem-cursor.cur), default;
+} */
+
 body::-webkit-scrollbar {
     width: 10px;
     background-color: #969696;
@@ -28,13 +32,21 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .container-one {
+    width: 100%;
     height: 100vh;
 }
 
 .title {
     font-weight: 600;
-    font-size: 5.8rem;
-    font-size: max(30px, 6vw);
+    font-size: max(40px, 6vw);
+    text-shadow: 0px 0px 15px #445964;
+}
+
+.subtitle {
+    font-size: max(14px, 1.40vw);
+}
+
+.text-shadow {
     text-shadow: 0px 0px 15px #445964;
 }
 
@@ -48,6 +60,10 @@ body::-webkit-scrollbar-thumb:hover {
     box-shadow: 0px 0px 15px #445964;
     background-color: #445964 !important;
     color: #fff !important;
+}
+
+.btn-inicio:hover {
+    background-color: #487D99 !important;
 }
 
 .card-portifolio {
@@ -75,6 +91,25 @@ body::-webkit-scrollbar-thumb:hover {
 .br {
     display: none;
 }
+
+#container-tech {
+    padding: 4rem 0rem;
+}
+
+#content-tech {
+    text-align: center;
+}
+
+#content-tech > p {
+    display: inline-block;
+    font-size: 4.5rem;
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+/* #sobre {
+    padding: 4rem 0rem;
+} */
 
 @media (max-width: 580px) {
     .body-portifolio {
