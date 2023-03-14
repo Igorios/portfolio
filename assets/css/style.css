@@ -147,6 +147,23 @@ body::-webkit-scrollbar-thumb:hover {
     color: #487D99;
 }
 
+#experiencias {
+    padding: 4rem 0rem;
+}
+
+.body-expe {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+}
+
+.body-expe .grid-item {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #487D99;
+}
+
 @media (max-width: 580px) {
     .body-portifolio {
         margin: 30px 2rem;
@@ -158,6 +175,14 @@ body::-webkit-scrollbar-thumb:hover {
 
     .br {
         display: flex;
+    }
+
+    .body-expe {
+        grid-template-columns: 1fr;
+    }
+
+    .body-expe .grid-item {
+        margin-top: 0 !important;
     }
     
     
