@@ -66,7 +66,7 @@ body::-webkit-scrollbar-thumb:hover {
     background-color: #487D99 !important;
 }
 
-.card-portifolio {
+.card-portfolio {
     border-radius: 15px;
     width: 200px;
     height: 200px;
@@ -80,7 +80,7 @@ body::-webkit-scrollbar-thumb:hover {
     width: 100%;
 }
 
-.body-portifolio {
+.body-portfolio {
     margin: 30px 9rem;
 }
 
@@ -165,7 +165,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 @media (max-width: 580px) {
-    .body-portifolio {
+    .body-portfolio {
         margin: 30px 2rem;
     }
 
