@@ -33,7 +33,6 @@ export var images = [
     link: "https://igorios.github.io/criptografia/",
     url: PATH + "jogo-2.png",
   },
-
   {
     id: 5,
     type: "pessoal",
@@ -49,6 +48,14 @@ export var images = [
     category: "pessoal",
     link: "https://eventos-igorios.000webhostapp.com/",
     url: PATH + "pessoal.png",
+  },
+  {
+    id: 7,
+    type: "pessoal",
+    name: "Cadastro de clientes",
+    category: "pessoal",
+    link: "https://igorios.github.io/gestao-projetos/",
+    url: PATH + "pessoal-3.png",
   },
 ];
 

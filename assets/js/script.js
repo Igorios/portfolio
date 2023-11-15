@@ -17,9 +17,8 @@ function exibirTodasImagens() {
   divContent.innerHTML = "";
 
   imagesCopy.splice(0, 6).forEach((todasImages) => {
-    divContent.innerHTML += `<a href="${todasImages.link}" target="_blank" class="col-md-4 box-img web">
-                            <img src="${todasImages.url}" class="img-fluid" alt="${todasImages.name}">
-                        </a>`;
+    divContent.innerHTML += `<a href="${todasImages.link}" target="_blank" data-name="${todasImages.name}" class="col-md-4 box-img web">
+        <img src="${todasImages.url}" class="img-fluid" alt="${todasImages.name}"></a>`;
   });
 }
 btnTodos.addEventListener("click", exibirTodasImagens);
@@ -31,9 +30,8 @@ btnPessoal.addEventListener("click", () => {
 
   if (todosPessoal.length > 0) {
     todosPessoal.forEach((pessoal) => {
-      divContent.innerHTML += `<a href="${pessoal.link}" target="_blank" class="col-md-4 box-img web">
-                <img src="${pessoal.url}" class="img-fluid" alt="${pessoal.name}">
-            </a>`;
+      divContent.innerHTML += `<a href="${pessoal.link}" target="_blank" data-name="${pessoal.name}" class="col-md-4 box-img web">
+                <img src="${pessoal.url}" class="img-fluid" alt="${pessoal.name}"></a>`;
     });
   }
 });
@@ -45,9 +43,8 @@ bntWeb.addEventListener("click", () => {
 
   if (todosWeb.length > 0) {
     todosWeb.forEach((web) => {
-      divContent.innerHTML += `<a href="${web.link}" target="_blank" class="col-md-4 box-img web">
-                <img src="${web.url}" class="img-fluid" alt="${web.name}">
-            </a>`;
+      divContent.innerHTML += `<a href="${web.link}" target="_blank" data-name="${web.name}" class="col-md-4 box-img web">
+                <img src="${web.url}" class="img-fluid" alt="${web.name}"></a>`;
     });
   }
 });
@@ -59,9 +56,8 @@ btnJogo.addEventListener("click", () => {
 
   if (todosJogos.length > 0) {
     todosJogos.forEach((jogos) => {
-      divContent.innerHTML += `<a href="${jogos.link}" target="_blank" class="col-md-4 box-img web">
-                <img src="${jogos.url}" class="img-fluid" alt="${jogos.name}">
-            </a>`;
+      divContent.innerHTML += `<a href="${jogos.link}" target="_blank" data-name="${jogos.name}" class="col-md-4 box-img web">
+                <img src="${jogos.url}" class="img-fluid" alt="${jogos.name}"></a>`;
     });
   }
 });
