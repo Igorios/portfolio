@@ -2,7 +2,7 @@ window.onload = function () {
   exibirTodasImagens();
 };
 
-const PATH = "../../assets/img/";
+const PATH = "assets/img/";
 
 var images = [
   {
