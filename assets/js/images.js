@@ -4,7 +4,7 @@ export var images = [
   {
     id: 1,
     type: "web",
-    name: "Site da empresa Grupo Plantão",
+    name: "Empresa Grupo Plantão",
     category: "web",
     link: "https://grupoplantao.srv.br/",
     url: PATH + "web-1.png",
@@ -20,26 +20,26 @@ export var images = [
   {
     id: 3,
     type: "web",
-    name: "Site denuncia CRN5",
+    name: "Site denuncia CRN-5",
     category: "web",
     link: "https://denuncias.crn5.org.br/",
     url: PATH + "web-2.png",
   },
   {
     id: 4,
-    type: "jogo",
-    name: "Criptografia",
-    category: "jogos",
-    link: "https://igorios.github.io/criptografia/",
-    url: PATH + "jogo-2.png",
-  },
-  {
-    id: 5,
     type: "pessoal",
     name: "Lista de tarefas",
     category: "pessoal",
     link: "https://igorios.github.io/lista-tarefas/",
     url: PATH + "pessoal-1.png",
+  },
+  {
+    id: 5,
+    type: "web",
+    name: "CRN-5",
+    category: "web",
+    link: "https://crn5.org.br/",
+    url: PATH + "web-3.png",
   },
   {
     id: 6,
@@ -56,6 +56,14 @@ export var images = [
     category: "pessoal",
     link: "https://igorios.github.io/gestao-projetos/",
     url: PATH + "pessoal-3.png",
+  },
+  {
+    id: 8,
+    type: "jogo",
+    name: "Criptografia",
+    category: "jogos",
+    link: "https://igorios.github.io/criptografia/",
+    url: PATH + "jogo-2.png",
   },
 ];
 

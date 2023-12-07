@@ -1,5 +1,4 @@
 const linkMenu = document.querySelectorAll('.link-menu[href^="#"]');
-console.log(linkMenu);
 
 linkMenu.forEach(item => {
     item.addEventListener('click', scrollToClick);
