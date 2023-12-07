@@ -12,7 +12,7 @@ export var images = [
   {
     id: 2,
     type: "jogo",
-    name: "Jogo da forca",
+    name: "Jogo da memoria",
     category: "jogos",
     link: "https://igorios.github.io/jogo-da-memoria/",
     url: PATH + "jogo-1.png",
@@ -28,7 +28,7 @@ export var images = [
   {
     id: 4,
     type: "jogo",
-    name: "Jogo da memoria",
+    name: "Criptografia",
     category: "jogos",
     link: "https://igorios.github.io/criptografia/",
     url: PATH + "jogo-2.png",
