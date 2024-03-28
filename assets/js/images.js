@@ -46,7 +46,7 @@ export var images = [
     type: "pessoal",
     name: "Site para publicar eventos",
     category: "pessoal",
-    link: "https://eventos-igorios.000webhostapp.com/",
+    link: "https://eventos.igorborgesweb.com/",
     url: PATH + "pessoal.png",
   },
   {
