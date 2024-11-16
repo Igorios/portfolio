@@ -27,11 +27,11 @@ export var images = [
   },
   {
     id: 4,
-    type: "pessoal",
-    name: "Lista de tarefas",
-    category: "pessoal",
-    link: "https://igorios.github.io/lista-tarefas/",
-    url: PATH + "pessoal-1.png",
+    type: "app",
+    name: "Cotação de Moedas",
+    category: "app",
+    link: "https://play.google.com/store/apps/details?id=com.igorios.cotacao&pcampaignid=web_share",
+    url: PATH + "app-1.png",
   },
   {
     id: 5,
@@ -64,6 +64,14 @@ export var images = [
     category: "jogos",
     link: "https://igorios.github.io/criptografia/",
     url: PATH + "jogo-2.png",
+  },
+  {
+    id: 9,
+    type: "pessoal",
+    name: "Lista de tarefas",
+    category: "pessoal",
+    link: "https://igorios.github.io/lista-tarefas/",
+    url: PATH + "pessoal-1.png",
   },
 ];
 

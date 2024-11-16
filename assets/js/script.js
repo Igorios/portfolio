@@ -8,6 +8,7 @@ const btnTodos = document.querySelector("#btn-todo");
 const bntWeb = document.querySelector("#btn-web");
 const btnJogo = document.querySelector("#btn-jogo");
 const btnPessoal = document.querySelector("#btn-pessoal");
+const btnApp = document.querySelector("#btn-app");
 
 const divContent = document.querySelector("#content-portfolio");
 
@@ -58,6 +59,19 @@ btnJogo.addEventListener("click", () => {
     todosJogos.forEach((jogos) => {
       divContent.innerHTML += `<a href="${jogos.link}" target="_blank" data-name="${jogos.name}" class="col-md-4 box-img web">
                 <img src="${jogos.url}" class="img-fluid" alt="${jogos.name}"></a>`;
+    });
+  }
+});
+
+btnApp.addEventListener("click", () => {
+  const todosApp = images.filter((image) => image.type == "app");
+
+  divContent.innerHTML = "";
+
+  if (todosApp.length > 0) {
+    todosApp.forEach((app) => {
+      divContent.innerHTML += `<a href="${app.link}" target="_blank" data-name="${app.name}" class="col-md-4 box-img web">
+                <img src="${app.url}" class="img-fluid" alt="${app.name}"></a>`;
     });
   }
 });
