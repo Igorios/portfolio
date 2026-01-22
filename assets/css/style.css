@@ -124,17 +124,6 @@ body::-webkit-scrollbar-thumb:hover {
   padding: 5rem 0rem;
 }
 
-#content-tech {
-  text-align: center;
-}
-
-#content-tech > p {
-  display: inline-block;
-  font-size: 4.5rem;
-  margin-right: 20px;
-  color: #ffffff;
-}
-
 /* #sobre {
     padding: 4rem 0rem;
 } */
